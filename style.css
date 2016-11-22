@@ -1,0 +1,101 @@
+/* My dank ass stylesheet */
+
+/* Header Styles */
+
+h1 {
+	font-family: Futura;
+	font-weight: bold;
+	font-size: 48px;
+	text-align: left;
+	border: 2px solid black;
+	padding: px;
+	color: white;
+	text-decoration: underline;
+
+}
+
+h1:hover {
+	text-decoration: none;
+	color: #4BDB32;
+
+}
+
+#header {
+	background: black; 
+	padding: 10px;
+	position: relative;
+
+}
+
+#navbar {
+	background: black;
+	border-radius: 10px;
+	height: 50px;
+	width: auto;
+	color: white;
+	font-family: Futura;
+	font-size: 28px;
+	list-style-type: none;
+	text-align: center;
+	display: block;
+	padding: 5px;
+	position: relative;
+
+}
+
+.navlist {
+	padding-top: 5px;
+	margin-left: 5px;
+	text-align: left;
+	display: inline-block;
+	text-align: center;
+}
+
+.link_navbar {
+	color: white;
+	text-decoration: white;
+
+}
+
+.link_navbar:hover {
+	text-decoration: underline;
+	color: #4BDB32;
+
+}
+
+
+#search {
+	color: gray;
+	font-size: 20px;
+	align-content: center;
+	display: inline-block;
+	font-family: Helvetica;
+	text-align: center;
+	position: relative;
+	border: 2px solid gray;
+	padding: 5px 0px 3px 5px; 
+	border-radius: 5px;
+}
+
+.description {
+	font-family: Helvetica;
+	font-size: 16px;
+	text-align: center;
+
+
+}
+
+
+footer {
+	font-family: Futura;
+	font-style: bold;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid black;
+	padding-top: 10px;
+	color: black;
+	margin: 3px 0px 3px 0px;
+	
+
+}
