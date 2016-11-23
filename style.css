@@ -3,20 +3,22 @@
 /* Header Styles */
 
 h1 {
-	font-family: Futura;
-	font-weight: bold;
-	font-size: 48px;
-	text-align: left;
-	border: 2px solid black;
-	padding: px;
-	color: white;
-	text-decoration: underline;
+	font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 85px;
+    text-align: center;
+    border: 2px solid black;
+    padding: px;
+    color: #4BDB32;
+    text-decoration: none;
+    transition: 0.5s;
 
 }
 
 h1:hover {
 	text-decoration: none;
-	color: #4BDB32;
+	color: white;
+	transition: 0.5s;
 
 }
 
@@ -29,7 +31,6 @@ h1:hover {
 
 #navbar {
 	background: black;
-	border-radius: 10px;
 	height: 50px;
 	width: auto;
 	color: white;
