@@ -2,16 +2,30 @@
 
 /* Header Styles */
 
+@keyframes textcolor {
+  	0%   {color: #4BDB32;}
+    20%  {color: #2170ef;}
+    38%  {color: #f7ff28;}
+    56%  {color: #f98304;}
+    72%  {color: #f73f27;}
+    100% {color: #a520d6;}
+   }
+
+
 h1 {
 	font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: bold;
     font-size: 85px;
     text-align: center;
     border: 2px solid black;
-    padding: px;
     color: #4BDB32;
     text-decoration: none;
     transition: 0.5s;
+    animation-name: textcolor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
 
 }
 
