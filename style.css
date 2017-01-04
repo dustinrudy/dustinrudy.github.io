@@ -21,7 +21,8 @@ a {
     display: flex;
     float: left;
     margin-top: -185px;
-    margin-left: 25px;
+    margin-left: 30px;
+    margin-bottom: 45px;
     width: 890px;
     text-align: center;
     justify-content: space-between;
