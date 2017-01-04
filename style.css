@@ -11,6 +11,47 @@
     100% {color: #a520d6;}
    }
 
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.contact_container {
+	clear: both;
+    display: flex;
+    float: left;
+    margin-top: -185px;
+    margin-left: 25px;
+    width: 890px;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+}
+
+.icon_group {
+	margin: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+i.fa.fa-github-square {
+	color: white;
+    font-size: 100px;
+    clear: both;
+}
+
+i.fa.fa-linkedin-square {
+	color: white;
+    font-size: 100px;
+    clear: both;
+}
+
+.icon_text {
+	color:white;
+	font-family: 'Tahoma', sans-serif;
+	text-decoration: none;
+}
 
 h1 {
 	font-family: 'Alegreya Sans SC', sans-serif;
@@ -38,6 +79,10 @@ h1:hover {
 
 body {
 	background-color: #000;
+}
+
+.container {
+	width: 1500px;
 }
 
 #header {
@@ -98,7 +143,7 @@ body {
     background: #000;
     color: white;
     border: 3px solid white;
-	margin-left: 30px;
+	margin-left: 17px;
 }
 
 
@@ -107,7 +152,6 @@ body {
 	font-family: 'Reem Kufi', sans-serif;
     font-size: 37px;
     text-align: center;
-    padding: 10px;
     
 }
 
