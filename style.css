@@ -48,6 +48,12 @@ i.fa.fa-linkedin-square {
     clear: both;
 }
 
+i.fa.fa-envelope {
+	color: white;
+	font-size: 100px;
+	clear: both;
+}
+
 .icon_text {
 	color:white;
 	font-family: 'Tahoma', sans-serif;
