@@ -89,7 +89,8 @@ body {
 }
 
 .container {
-	width: 1500px;
+	width: 1383px;
+	margin: auto;
 }
 
 #header {
